@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT | TPP</title>
+    <link rel="icon" type="image/svg" href="images/047-parasect.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="top-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Portfolio</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="research.html">Research</a>
+                <a href="career.html">Career</a>
+                <a href="games.html">Games</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="content-wrapper">
+        <section class="contact-hero">
+            <div class="location-preview">
+                <div class="location-photo-wrapper">
+                    <img src="images/london_sm.jpg" alt="Current location">
+                </div>
+                <div class="location-caption">
+                    <h3>I live and work in London, UK</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form-card">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="form-description"></p>
+            <form class="contact-form" action="https://formspree.io/f/xvzjdzok" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="_replyto" placeholder="Your email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+                <input type="hidden" name="_subject" value="New message from contact page">
+                <input type="hidden" name="_captcha" value="false">
+
+                <button type="submit" class="button-primary">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container footer-icons-only">
+            <div class="social-icons">
+                <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" class="icon-link scholar-icon"><i class="fas fa-graduation-cap"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="icon-link linkedin-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://itch.io" target="_blank" rel="noopener noreferrer" aria-label="Itch.io" class="icon-link itch-icon"><i class="fab fa-itch-io"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
